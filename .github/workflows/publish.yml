@@ -1,0 +1,7 @@
+- name: Publish NuGet
+  uses: rohith/publish-nuget@v2.3.0
+  with:
+    # Filepath of the project to be packaged, relative to root of repository
+    PROJECT_FILE_PATH: src/Conditions/Conditions.csproj
+    # API key for the NuGet feed
+    NUGET_KEY: oy2muggwdlqjwtrbc4iqjis7deaoye7etpgeq5j3gngv4q

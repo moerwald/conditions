@@ -11,3 +11,4 @@ git pull
 git checkout release/1.x.x
 git merge master
 git push
+git checkout master

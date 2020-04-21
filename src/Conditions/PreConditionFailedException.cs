@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Conditions.PreConditions
+namespace Mwd.Conditions
 {
     [Serializable]
-    internal class PreConditionFailedException : Exception
+    public class PreConditionFailedException : Exception
     {
         public PreConditionFailedException()
         {

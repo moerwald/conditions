@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Mwd.Conditions</RootNamespace>
+    <AssemblyName>Mwd.Conditions</AssemblyName>
   </PropertyGroup>
 
 </Project>

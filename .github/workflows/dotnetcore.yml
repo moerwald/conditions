@@ -20,6 +20,6 @@ jobs:
     - name: Install dependencies
       run: dotnet restore src/Conditions.sln
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build src/Conditions.sln --configuration Release --no-restore
     - name: Test
-      run: dotnet test --no-restore --verbosity normal --configuration RELEASE
+      run: dotnet test src/Conditions.sln --no-restore --verbosity normal --configuration RELEASE
